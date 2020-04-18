@@ -1,0 +1,161 @@
+/* Reset CSS (JANGAN DIHAPUS) */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lucida Grande";
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Ketik code Anda dibawah */
+.top-wrapper {
+  padding-top:180px;
+  padding-bottom:100px;
+  background-image:url(https://campatour.com/wp-content/uploads/2019/01/DSC06104-1140x530.jpg);
+  background-size:cover;
+  color:white;
+  text-align:center;
+}
+
+.container {
+  width:1170px;
+  margin:0 auto;
+}
+
+.top-wrapper h1 {
+  font-size:45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+  opacity:0.7;
+}
+
+.top-wrapper p {
+  margin-bottom: 3px;
+  opacity:0.7;
+}
+
+
+
+header {
+  height: 65px;
+  width:100%;
+  background-color:rgba(34,49,52,0.9);
+  top:0;
+  position:fixed;
+  z-index:10;
+}
+
+.logo {
+  width:124px;
+  margin: 20px 0;
+}
+
+.header-left {
+  float:left;
+}
+
+.header-right {
+  float:right;
+  transition: all 0.5s;
+  background-color: rgba(255,255,255,0.3);
+}
+
+.header-right:hover {
+  background-color: rgba(255,255,255,0.5);
+}
+
+.header-right a {
+  display:block;
+  margin-right: 25px;
+  margin-left: 25px;
+  line-height:65px;
+  color:white;
+  
+}
+.lesson-wrapper {
+  height:500px;
+  padding-bottom:80px;
+  background-color:#f7f7f7;
+  text-align:center;
+}
+
+.heading {
+  padding-top:60px;
+  margin-bottom:30px;
+  color:#5f5d60;
+}
+
+.heading h2 {
+  font-weight:normal;
+}
+
+.lesson {
+  width:25%;
+  float:left;
+}
+
+.lesson-icon {
+  position:relative;
+  top:10px;
+}
+
+.lesson-icon p {
+  top:90px;
+  width:100%;
+  position:absolute;
+  float:left;
+  color:white;
+}
+
+.txt-contents {
+  width:80%;
+  margin-top:20px;
+  display:inline-block;
+  font-size:15px;
+  color:#b3aeb5;
+}
+
+.heading h3 {
+  font-weight:normal;
+}
+
+.contact-form {
+  padding-top: 100px;
+}
+
+input, textarea {
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding:20px;
+  border: 1px solid #dee7ec;
+  font-size: 18px;
+}
+
+.contact-submit {
+  color:#889eab;
+  background-color:#dee7ec;
+}
+
+footer {
+  color:#b3aeb5;
+  padding-top:30px;
+}
+
+.footer-left img {
+  width:124px;
+}
+.footer-left p {
+  font-size:12px;
+}
